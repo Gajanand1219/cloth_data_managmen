@@ -32,14 +32,35 @@ This project demonstrates CRUD operations, authentication, and a clean UI for sh
 
 ---
 
-## 📂 Folder Structure (Frontend)
+---
 
-cloth-shop-management/
-│── public/ # Static assets
-│── src/
-│ ├── components/ # Reusable UI components
-│ ├── pages/ # Page-level components (Home, Cart, Admin, etc.)
-│ ├── services/ # API calls (Axios functions)
-│ ├── App.js # Main App component
-│ └── index.js # Entry point
-│── package.json
+## ⚙️ Installation & Setup
+
+1. **Clone the repo**
+   ```bash
+   git clone https://github.com/yourusername/cloth-shop-management.git
+   cd cloth-shop-management
+   
+    ## 📂 Folder Structure (Frontend)
+   
+   cloth-shop-management/
+    │── backend/ # FastAPI backend
+    │ ├── pycache/ # Cache files
+    │ ├── db.sqlite # SQLite database
+    │ ├── main.py # FastAPI entry point
+    │ ├── requirements.txt # Python dependencies
+    │
+    │── frontend/ # React frontend
+    │ ├── public/ # Static assets
+    │ ├── src/ # React source code
+    │ │ ├── components/ # Reusable UI components
+    │ │ ├── pages/ # Page-level components
+    │ │ ├── services/ # API calls (Axios)
+    │ │ ├── App.js # Main React app
+    │ │ └── index.js # Entry point
+    │ ├── package.json
+    │ ├── package-lock.json
+    │
+    │── .gitignore
+    │── README.md
+
